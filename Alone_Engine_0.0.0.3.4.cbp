@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Alone_Engine_0.0.0.3.4" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Alone_Engine_0.0.0.3.4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Alone_Engine_0.0.0.3.4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="data/icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="lib/Game/bmp_reader.h" />
+		<Unit filename="lib/Game/classes.h" />
+		<Unit filename="lib/Game/drawer.h" />
+		<Unit filename="lib/Game/func_names.h" />
+		<Unit filename="lib/Game/global.h" />
+		<Unit filename="lib/Game/izi_math.h" />
+		<Unit filename="lib/Game/libraries.h" />
+		<Unit filename="lib/Game/light.h" />
+		<Unit filename="lib/Game/loader.h" />
+		<Unit filename="lib/Game/matrix.h" />
+		<Unit filename="lib/Game/menu.h" />
+		<Unit filename="lib/Game/mysor.h" />
+		<Unit filename="lib/Game/objects.h" />
+		<Unit filename="lib/Game/optimization.h" />
+		<Unit filename="lib/Game/options.h" />
+		<Unit filename="lib/Game/paint.h" />
+		<Unit filename="lib/Game/parametrs.h" />
+		<Unit filename="lib/Game/proection.h" />
+		<Unit filename="lib/Game/stndt_param.h" />
+		<Unit filename="lib/Game/structs.h" />
+		<Unit filename="lib/Game/textes.h" />
+		<Unit filename="lib/Game/vectors.h" />
+		<Unit filename="lib/Game/window.h" />
+		<Unit filename="lib/Online/Client.cpp" />
+		<Unit filename="lib/Online/Client.h" />
+		<Unit filename="lib/Online/Net.h" />
+		<Unit filename="lib/Online/Net2.h" />
+		<Unit filename="lib/Online/Packer.h" />
+		<Unit filename="lib/Online/Packettypes.cpp" />
+		<Unit filename="lib/Online/Packettypes.h" />
+		<Unit filename="lib/Online/Server.cpp" />
+		<Unit filename="lib/Online/Server.h" />
+		<Unit filename="lib/Online/server_structs.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

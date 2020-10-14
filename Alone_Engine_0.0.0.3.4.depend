@@ -1,0 +1,141 @@
+# depslib dependency file v1.0
+1602692863 source:c:\programs\c++\alone_engine_0.0.0.3.4\lib\online\packettypes.cpp
+
+1602701799 source:c:\programs\c++\alone_engine_0.0.0.3.4\lib\online\client.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"Net2.h"
+	"Client.h"
+	"../Game/structs.h"
+	"../Game/objects.h"
+	"Packer.h"
+
+1602696580 c:\programs\c++\alone_engine_0.0.0.3.4\lib\online\net2.h
+	<winsock2.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<fcntl.h>
+	<assert.h>
+	<vector>
+	<map>
+	<stack>
+	<unistd.h>
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\online\client.h
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\structs.h
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\objects.h
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\online\packer.h
+
+1602701799 source:c:\programs\c++\alone_engine_0.0.0.3.4\lib\online\server.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"Net.h"
+	"Server.h"
+	"../Game/structs.h"
+	"../Game/objects.h"
+	"Packer.h"
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\online\net.h
+	<winsock2.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<fcntl.h>
+	<assert.h>
+	<vector>
+	<map>
+	<stack>
+	<unistd.h>
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\online\server.h
+
+1602701799 source:c:\programs\c++\alone_engine_0.0.0.3.4\main.cpp
+	<iostream>
+	<fstream>
+	<chrono>
+	<ctime>
+	<clocale>
+	<windows.h>
+	<windowsx.h>
+	<math.h>
+	"lib/Game/libraries.h"
+
+1602703797 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\libraries.h
+	"global.h"
+	"structs.h"
+	"func_names.h"
+	"parametrs.h"
+	"izi_math.h"
+	"stndt_param.h"
+	"matrix.h"
+	"bmp_reader.h"
+	"textes.h"
+	"options.h"
+	"vectors.h"
+	"optimization.h"
+	"light.h"
+	"objects.h"
+	"classes.h"
+	"loader.h"
+	"proection.h"
+	"paint.h"
+	"../Online/server_structs.h"
+	"../Online/Server.h"
+	"../Online/Client.h"
+	"drawer.h"
+	"window.h"
+	"menu.h"
+
+1602692862 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\global.h
+
+1602692862 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\func_names.h
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\parametrs.h
+
+1602692862 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\izi_math.h
+
+1602703852 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\stndt_param.h
+
+1602692862 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\matrix.h
+	<iostream>
+	<ctime>
+	<cmath>
+
+1602692862 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\bmp_reader.h
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\textes.h
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\options.h
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\vectors.h
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\optimization.h
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\physics.h
+
+1602692862 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\light.h
+
+1602703094 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\classes.h
+
+1602692862 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\loader.h
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\proection.h
+
+1602704101 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\paint.h
+
+1602692863 c:\programs\c++\alone_engine_0.0.0.3.4\lib\online\server_structs.h
+
+1602692862 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\drawer.h
+
+1602706249 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\window.h
+
+1602706249 c:\programs\c++\alone_engine_0.0.0.3.4\lib\game\menu.h
+
+1602692860 source:c:\programs\c++\alone_engine_0.0.0.3.4\data\icon.rc
+
